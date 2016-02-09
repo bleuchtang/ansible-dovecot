@@ -297,6 +297,10 @@ dovecot_lmtp_config_map:
 # :ref:`dovecot_postfix_transport`.
 dovecot_postfix_transport: 'lmtp:unix:private/dovecot-lmtp'
 
+# .. envvar:: dovecot_auto_create_mailboxes
+#
+# custom auto create mailboxes for certain mailbox
+dovecot_auto_create_mailboxes: []
 
 # .. envvar:: dovecot_custom_localconf
 #

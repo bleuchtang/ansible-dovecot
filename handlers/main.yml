@@ -4,3 +4,6 @@
   service:
     name: 'dovecot'
     state: 'restarted'
+
+- name: Sieve rspam
+  command: 'sievec /etc/dovecot/rspamd.sieve'
